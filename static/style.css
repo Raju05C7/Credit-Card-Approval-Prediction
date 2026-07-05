@@ -1,0 +1,131 @@
+/* General Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3c72,#2a5298);
+    min-height:100vh;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+}
+
+/* Home Page */
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:3.2rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#dbeafe;
+}
+
+.hero-img{
+    font-size:220px;
+    color:#60a5fa;
+}
+
+.btn-start{
+    background:#0d6efd;
+    color:white;
+    padding:14px 35px;
+    border-radius:50px;
+    font-size:20px;
+    transition:.3s;
+}
+
+.btn-start:hover{
+    background:#084298;
+    color:white;
+    transform:scale(1.05);
+}
+
+/* Feature Cards */
+.feature-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+    transition:.3s;
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Prediction Page */
+.container-box{
+    max-width:1200px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.card-header{
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Result Page */
+.result-card{
+    width:650px;
+    margin:auto;
+    margin-top:80px;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.icon{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+.success{
+    color:#198754;
+}
+
+.danger{
+    color:#dc3545;
+}
+
+.confidence{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+/* Footer */
+footer{
+    margin-top:60px;
+    padding:20px;
+    text-align:center;
+    color:white;
+    background:rgba(0,0,0,.25);
+}
